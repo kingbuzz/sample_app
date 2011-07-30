@@ -77,3 +77,10 @@ git merge filling-in-layout
 git push
 git push heroku
 ------------------------
+
+rails generate model User name:string email:string
+bundle exec rake db:migrate
+"Besser" rake db:test:prepare "weil die schaisse ned funzt"
+------------
+"change gemfile"
+bundle install
