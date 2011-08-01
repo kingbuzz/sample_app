@@ -1,3 +1,10 @@
+------------
+Allgemeiner Standard:
+bundle exec rspec spec/
+bundle exec spork
+bundle exec rake db:migrate
+rake db:test:prepare
+-------------------------------
 cd ~/rails_projects
 $ rails new sample_app -T
 $ cd sample_app
@@ -83,4 +90,10 @@ bundle exec rake db:migrate
 "Besser" rake db:test:prepare "weil die schaisse ned funzt"
 ------------
 "change gemfile"
+bundle install
+--------------------
+"in Gemfile" gem 'factory_girl_rails', '1.0'
+bundle install
+---------------
+"in Gemfile" gem 'gravatar_image_tag', '1.0.0.pre2'
 bundle install
